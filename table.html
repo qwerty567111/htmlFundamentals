@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables and Forms</title>
+</head>
+<body>
+    
+    <h2>This is a table</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+            </tr>
+            <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <h2>Form example</h2>
+
+    <form action="#">
+        <label for="username">Username</label>
+        <input type="text" placeholder="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="password">
+    
+        <input type="button" value="submit">
+    </form>
+
+    <br>
+
+    <h2>User message form example</h2>
+
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" name="username" placeholder="Ezio">
+
+        <label for="email">Email:</label>
+        <input type="email" name="usersEmail" placeholder="ezio@ezio.com">
+
+        <label for="message">Message</label>
+        <textarea name="usersMessage"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <h2>Input types example</h2>
+
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" name="username" placeholder="Ezio" required>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="bday">
+        <br>
+        <label for="color">Colour:</label>
+        <input type="color" name="color">
+        <br><br>
+        <label for="likes">Likes:</label><br>
+        <input type="checkbox" name="Games">Games<br>
+        <input type="checkbox" name="Eating">Eating<br>
+        <input type="checkbox" name="Walking">Walking<br>
+        <br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male" checked>Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
